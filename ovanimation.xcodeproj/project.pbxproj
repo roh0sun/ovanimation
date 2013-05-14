@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF65C1F01741DD9800DFB4B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF65C1EF1741DD9800DFB4B5 /* Cocoa.framework */; };
+		DF65C1FA1741DD9800DFB4B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF65C1F81741DD9800DFB4B5 /* InfoPlist.strings */; };
+		DF65C1FC1741DD9800DFB4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF65C1FB1741DD9800DFB4B5 /* main.m */; };
+		DF65C2001741DD9800DFB4B5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF65C1FE1741DD9800DFB4B5 /* Credits.rtf */; };
+		DF65C2031741DD9800DFB4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF65C2021741DD9800DFB4B5 /* AppDelegate.m */; };
+		DF65C2061741DD9800DFB4B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF65C2041741DD9800DFB4B5 /* MainMenu.xib */; };
+		DF65C20E1741DE5800DFB4B5 /* AniOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF65C20D1741DE5800DFB4B5 /* AniOutlineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF65C1EC1741DD9800DFB4B5 /* ovanimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ovanimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF65C1EF1741DD9800DFB4B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF65C1F21741DD9800DFB4B5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF65C1F31741DD9800DFB4B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF65C1F41741DD9800DFB4B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF65C1F71741DD9800DFB4B5 /* ovanimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ovanimation-Info.plist"; sourceTree = "<group>"; };
+		DF65C1F91741DD9800DFB4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF65C1FB1741DD9800DFB4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF65C1FD1741DD9800DFB4B5 /* ovanimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ovanimation-Prefix.pch"; sourceTree = "<group>"; };
+		DF65C1FF1741DD9800DFB4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DF65C2011741DD9800DFB4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF65C2021741DD9800DFB4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF65C2051741DD9800DFB4B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DF65C20C1741DE5800DFB4B5 /* AniOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniOutlineView.h; sourceTree = "<group>"; };
+		DF65C20D1741DE5800DFB4B5 /* AniOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniOutlineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF65C1E91741DD9800DFB4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF65C1F01741DD9800DFB4B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF65C1E31741DD9800DFB4B5 = {
+			isa = PBXGroup;
+			children = (
+				DF65C1F51741DD9800DFB4B5 /* ovanimation */,
+				DF65C1EE1741DD9800DFB4B5 /* Frameworks */,
+				DF65C1ED1741DD9800DFB4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF65C1ED1741DD9800DFB4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C1EC1741DD9800DFB4B5 /* ovanimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF65C1EE1741DD9800DFB4B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C1EF1741DD9800DFB4B5 /* Cocoa.framework */,
+				DF65C1F11741DD9800DFB4B5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF65C1F11741DD9800DFB4B5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C1F21741DD9800DFB4B5 /* AppKit.framework */,
+				DF65C1F31741DD9800DFB4B5 /* CoreData.framework */,
+				DF65C1F41741DD9800DFB4B5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF65C1F51741DD9800DFB4B5 /* ovanimation */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C2011741DD9800DFB4B5 /* AppDelegate.h */,
+				DF65C2021741DD9800DFB4B5 /* AppDelegate.m */,
+				DF65C2041741DD9800DFB4B5 /* MainMenu.xib */,
+				DF65C1F61741DD9800DFB4B5 /* Supporting Files */,
+				DF65C20C1741DE5800DFB4B5 /* AniOutlineView.h */,
+				DF65C20D1741DE5800DFB4B5 /* AniOutlineView.m */,
+			);
+			path = ovanimation;
+			sourceTree = "<group>";
+		};
+		DF65C1F61741DD9800DFB4B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C1F71741DD9800DFB4B5 /* ovanimation-Info.plist */,
+				DF65C1F81741DD9800DFB4B5 /* InfoPlist.strings */,
+				DF65C1FB1741DD9800DFB4B5 /* main.m */,
+				DF65C1FD1741DD9800DFB4B5 /* ovanimation-Prefix.pch */,
+				DF65C1FE1741DD9800DFB4B5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF65C1EB1741DD9800DFB4B5 /* ovanimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF65C2091741DD9800DFB4B5 /* Build configuration list for PBXNativeTarget "ovanimation" */;
+			buildPhases = (
+				DF65C1E81741DD9800DFB4B5 /* Sources */,
+				DF65C1E91741DD9800DFB4B5 /* Frameworks */,
+				DF65C1EA1741DD9800DFB4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ovanimation;
+			productName = ovanimation;
+			productReference = DF65C1EC1741DD9800DFB4B5 /* ovanimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF65C1E41741DD9800DFB4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = openobject;
+			};
+			buildConfigurationList = DF65C1E71741DD9800DFB4B5 /* Build configuration list for PBXProject "ovanimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF65C1E31741DD9800DFB4B5;
+			productRefGroup = DF65C1ED1741DD9800DFB4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF65C1EB1741DD9800DFB4B5 /* ovanimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF65C1EA1741DD9800DFB4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF65C1FA1741DD9800DFB4B5 /* InfoPlist.strings in Resources */,
+				DF65C2001741DD9800DFB4B5 /* Credits.rtf in Resources */,
+				DF65C2061741DD9800DFB4B5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF65C1E81741DD9800DFB4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF65C1FC1741DD9800DFB4B5 /* main.m in Sources */,
+				DF65C2031741DD9800DFB4B5 /* AppDelegate.m in Sources */,
+				DF65C20E1741DE5800DFB4B5 /* AniOutlineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF65C1F81741DD9800DFB4B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF65C1F91741DD9800DFB4B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF65C1FE1741DD9800DFB4B5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF65C1FF1741DD9800DFB4B5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DF65C2041741DD9800DFB4B5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF65C2051741DD9800DFB4B5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF65C2071741DD9800DFB4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF65C2081741DD9800DFB4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF65C20A1741DD9800DFB4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ovanimation/ovanimation-Prefix.pch";
+				INFOPLIST_FILE = "ovanimation/ovanimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF65C20B1741DD9800DFB4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ovanimation/ovanimation-Prefix.pch";
+				INFOPLIST_FILE = "ovanimation/ovanimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF65C1E71741DD9800DFB4B5 /* Build configuration list for PBXProject "ovanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF65C2071741DD9800DFB4B5 /* Debug */,
+				DF65C2081741DD9800DFB4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF65C2091741DD9800DFB4B5 /* Build configuration list for PBXNativeTarget "ovanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF65C20A1741DD9800DFB4B5 /* Debug */,
+				DF65C20B1741DD9800DFB4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF65C1E41741DD9800DFB4B5 /* Project object */;
+}
